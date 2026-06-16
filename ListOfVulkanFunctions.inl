@@ -10,7 +10,9 @@ EXPORTED_VULKAN_FUNCTION(vkGetInstanceProcAddr)
 #define GLOBAL_LEVEL_VULKAN_FUNCTION( function )
 #endif
 
-// (We will add the actual global functions here later)
+GLOBAL_LEVEL_VULKAN_FUNCTION(vkEnumerateInstanceExtensionProperties)
+GLOBAL_LEVEL_VULKAN_FUNCTION(vkEnumerateInstanceLayerProperties)
+GLOBAL_LEVEL_VULKAN_FUNCTION(vkCreateInstance)
 
 #undef GLOBAL_LEVEL_VULKAN_FUNCTION
 
